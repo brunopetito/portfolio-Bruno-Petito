@@ -4,7 +4,7 @@ function Header(){
  
   return(
     
-    <div className='sm:bg-zinc-800 xl:m-auto border-b '>
+    <div className='sm:bg-zinc-800 xl:m-auto sm:border-b '>
     <div className="flex w-full sm:items-center justify-center relative sm:max-w-7xl sm:h-24  px-20 sm:justify-between xl:m-auto">
       <img src={elipseURL} className="absolute -z-10 sm:hidden"/>
       
