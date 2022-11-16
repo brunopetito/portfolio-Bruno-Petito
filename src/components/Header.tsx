@@ -1,5 +1,7 @@
 import elipseURL from '../assets/elipse.svg'
 import Navbar from './desktop/Navbar'
+import logo from '../assets/logo.svg'
+
 function Header(){
  
   return(
@@ -9,7 +11,7 @@ function Header(){
       <img src={elipseURL} className="absolute -z-10 sm:hidden"/>
       
       <div className='hidden sm:block text-zinc-50  ' >
-        <p>Logo</p>
+        <img src={logo} alt="" className='sm:h-16' />
       </div>
       <div className='hidden sm:block  '>
         <Navbar/>
